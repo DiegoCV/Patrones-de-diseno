@@ -10,5 +10,8 @@ package patrones.talleres.t1.conexion;
  * @author estudiante
  */
 public interface IConexion {
+    
     public String getComentario();
+    
+    public String getNombre();
 }

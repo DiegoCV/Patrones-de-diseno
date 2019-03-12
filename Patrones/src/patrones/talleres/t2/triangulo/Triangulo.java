@@ -12,6 +12,8 @@ package patrones.talleres.t2.triangulo;
 public abstract class Triangulo {
 
     private int a, b, c;
+    
+    protected String nombre;
 
     public Triangulo(int a, int b, int c) {
         this.a = a;
@@ -19,7 +21,9 @@ public abstract class Triangulo {
         this.c = c;
     }
 
-    
+    public String getNombre(){
+        return nombre;
+    }
     
     
 }

@@ -12,11 +12,17 @@ package patrones.talleres.t1.conexion;
 public class ConexionMariaDb implements IConexion{
 
     private int con = 0;
+    private String nombre = "mariadb";
     
     @Override
     public String getComentario() {
         con++;
         return "Soy MariaDB, las veces que el metodo se ha llamado es: "+con;
+    }
+    
+    @Override
+    public String getNombre(){
+        return nombre;
     }
     
 }

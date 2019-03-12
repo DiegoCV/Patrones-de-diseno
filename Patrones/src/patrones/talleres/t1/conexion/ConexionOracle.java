@@ -12,6 +12,7 @@ package patrones.talleres.t1.conexion;
 public class ConexionOracle implements IConexion{
 
     private int con = 0;
+    private final String nombre = "oracle";
 
     @Override
     public String getComentario() {
@@ -19,7 +20,10 @@ public class ConexionOracle implements IConexion{
         return "Soy Oracle, las veces que el metodo se ha llamado es: "+con;
     }
 
-
+    @Override
+    public String getNombre(){
+        return nombre;
+    }
     
     
     

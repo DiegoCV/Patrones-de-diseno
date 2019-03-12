@@ -10,7 +10,7 @@ package patrones.talleres.t2.triangulo;
  * @author DiegoCarrascal
  */
 public class Isosceles extends Triangulo{
-    private String nombre;
+ 
     public Isosceles(int a, int b, int c) {
         super(a, b, c);
         nombre = "Isosceles";

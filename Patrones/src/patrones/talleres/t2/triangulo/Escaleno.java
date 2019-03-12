@@ -11,7 +11,7 @@ package patrones.talleres.t2.triangulo;
  */
 public class Escaleno extends Triangulo{
     
-    private String nombre;
+
     
     public Escaleno(int a, int b, int c) {
         super(a, b, c);

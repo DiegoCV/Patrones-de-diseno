@@ -11,8 +11,7 @@ package patrones.talleres.t2.triangulo;
  */
 public class Equilatero extends Triangulo{
     
-    private String nombre;
-    
+        
     public Equilatero(int a, int b, int c) {
         super(a, b, c);
         nombre = "Equilatero";
